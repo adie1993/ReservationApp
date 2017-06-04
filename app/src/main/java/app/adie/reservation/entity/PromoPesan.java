@@ -1,0 +1,53 @@
+package app.adie.reservation.entity;
+
+import java.io.Serializable;
+import java.util.TreeMap;
+
+public class PromoPesan implements Serializable {
+    public String agen;
+    public String alamat_pemesan;
+    public int balik;
+    public String batas_pembayaran;
+    public int biaya_layanan;
+    public String cabang;
+    public String channel;
+    public int diskon;
+    public String email_pemesan;
+    public int harga;
+    public int harga_pulang;
+    public int id_jurusan;
+    public int id_layout;
+    public String idmember_dta;
+    public int ispp;
+    public String jam_berangkat;
+    public String jam_berangkat_pulang;
+    public int jml_penumpang;
+    public String kode_agen;
+    public String kode_booking;
+    public String kode_jadwal;
+    public String kode_jadwal_pulang;
+    public String kode_pembayaran;
+    public String kuota_session;
+    public String logo_agen_big;
+    public String logo_agen_small;
+    public String logo_payment;
+    public String nama_pemesan;
+    public String nama_penumpang;
+    public String[] no_tiket;
+    public String nomor_kursi;
+    public String nomor_kursi_pulang;
+    public String payment;
+    public TreeMap<String, String> payment_data;
+    public String payment_name;
+    public String payment_terms;
+    public String payment_url;
+    public String promo;
+    public String promo_pulang;
+    public String telp_pemesan;
+    public String terms;
+    public long tgl_berangkat;
+    public long tgl_pulang;
+    public int total_bayar;
+    public String tujuan;
+    public String voucher;
+}

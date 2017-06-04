@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_filter_list_white" app:id="@+id/file" app:title="@string/action_filter" android:showAsAction="always">
+        <menu>
+            <group app:checkableBehavior="single" android:showAsAction="always">
+                <item app:id="@+id/action_all" app:checked="true" app:title="@string/action_all" />
+                <item app:id="@+id/action_paid" app:title="@string/action_paid" />
+                <item app:id="@+id/action_unpaid" app:title="@string/action_unpaid" />
+                <item app:id="@+id/action_progress" app:title="@string/action_progress" />
+                <item app:id="@+id/action_cancel" app:title="Cancel" />
+                <item app:id="@+id/action_habis" app:title="Tidak dibayar" />
+                <item app:id="@+id/action_reject" app:title="Di Tolak" />
+
+            </group>
+        </menu>
+    </item>
+</menu>

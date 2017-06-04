@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+
+    android2:layout_width="wrap_content"
+    android2:layout_height="match_parent">
+    <app.adie.reservation.view.widget.LoadingIndicator
+        android2:id="@+id/loading_indicator" android2:visibility="visible" android2:layout_centerInParent="true"
+        android2:layout_width="wrap_content"
+        android2:layout_height="wrap_content"
+        android:indicator="BallPulse"
+        android:indicator_color="@color/colorPrimary"
+        />
+    <FrameLayout
+        android2:id="@+id/contentt"
+        android2:layout_width="match_parent"
+        android2:layout_height="match_parent"
+        >
+    </FrameLayout>
+</RelativeLayout>

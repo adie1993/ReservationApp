@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="610dp"
+                android:orientation="vertical">
+                <android.support.design.widget.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/toolbarf"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:background="?attr/colorPrimary"
+                        app:layout_scrollFlags="scroll|enterAlways"
+                        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+                </android.support.design.widget.AppBarLayout>
+                <RelativeLayout
+                    android:id="@+id/main_container"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ScrollView
+                        android:id="@+id/normal_mode_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fillViewport="true">
+
+                        <LinearLayout
+                            android:id="@+id/scrollview_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clipToPadding="false"
+                            android:orientation="vertical"
+
+                            android:weightSum="1">
+                            <LinearLayout
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ffffff"
+                                android:orientation="vertical">
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_top" />
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                android:layout_height="180dp"
+                                    android:padding="2dip"
+                                     >
+                                    <FrameLayout
+                                        android:id="@+id/containerterms"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="match_parent"
+                                 android:background="#ffffff"></FrameLayout>
+                                </LinearLayout>
+                                <FrameLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="#f0f0f0">
+
+                                    <View
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="1dip"
+                                        android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                        android:background="@drawable/divider_section_bottom"/>
+                                </FrameLayout>
+                            </LinearLayout>
+                            <LinearLayout
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ffffff"
+                                android:layout_marginTop="24dp"
+                                android:orientation="vertical">
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_top" />
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    >
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_kode" />
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_kodetiket"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Kode Tiket"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                   android:textColor="@color/colorPrimary"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <FrameLayout
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#f0f0f0">
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dip"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_bottom"/>
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:id="@+id/first_group_container"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ffffff"
+                                android:layout_marginTop="24dp"
+
+                                android:orientation="vertical">
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_top" />
+
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrival" />
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_keb"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Keberangkatan"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                                <View
+                                    android:background="#f0f0f0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="5px" />
+
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tujuan_on" />
+                                    <android.support.design.widget.TextInputLayout
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_tujuan"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Tujuan"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                                <View
+                                    android:background="#f0f0f0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="5px" />
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/calendar" />
+                                    <android.support.design.widget.TextInputLayout
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_tggl"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Tanggal Keberangkatan"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                                <View
+                                    android:background="#f0f0f0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="5px" />
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clock_on" />
+                                    <android.support.design.widget.TextInputLayout
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_jam"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Jam Keberangkatan"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#f0f0f0">
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dip"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_bottom"/>
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ffffff"
+                                android:layout_marginTop="24dp"
+
+                                android:orientation="vertical">
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_top" />
+
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_penumpang" />
+                                    <android.support.design.widget.TextInputLayout
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_penumpang"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Penumpang"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                                <View
+                                    android:background="#f0f0f0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="5px" />
+
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_seat" />
+                                    <android.support.design.widget.TextInputLayout
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_kursi"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="No Kursi"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <FrameLayout
+
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#f0f0f0">
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dip"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_bottom"/>
+                            </FrameLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#ffffff"
+                                android:layout_marginTop="24dp"
+
+                                android:orientation="vertical">
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_top" />
+
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_rupiah" />
+                                    <android.support.design.widget.TextInputLayout
+                                        android:id="@+id/input_layout_penumpang"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                    >
+
+                                        <EditText
+                                            android:id="@+id/inp_harga"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Harga Tiket"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                                <View
+                                    android:background="#f0f0f0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="5px" />
+
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_diskon" />
+                                    <android.support.design.widget.TextInputLayout
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_diskon"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Diskon"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                                <View
+                                    android:background="#f0f0f0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="5px" />
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_cashback" />
+                                    <android.support.design.widget.TextInputLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_uang"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Uang Kembali"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                                <View
+                                    android:background="#f0f0f0"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="5px" />
+                                <LinearLayout
+
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/view_height"
+                                    android:padding="3dip"
+                                    android:orientation="horizontal"
+                                    android:weightSum="1">
+
+                                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cart" />
+                                    <android.support.design.widget.TextInputLayout
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        >
+
+                                        <EditText
+                                            android:id="@+id/inp_total"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:hint="Total Bayar"
+                                            android:focusable="false"
+                                            android:enabled="false"
+                                            android:text="asa"
+                                            android:textColorHint="#2f2f2f"
+                                            android:textColor="#616161"
+                                            android:textSize="14sp"/>
+                                    </android.support.design.widget.TextInputLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:id="@+id/first_spacer"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#f0f0f0">
+
+                                <View
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="1dip"
+                                    android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                                    android:background="@drawable/divider_section_bottom"/>
+                            </FrameLayout>
+
+
+
+
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                    <app.adie.reservation.view.widget.Fab
+                        android:id="@+id/fab"
+                        style="@style/Widget.MaterialSheetFab.Fab"
+                        android:layout_alignParentBottom="true"
+                        android:src="@mipmap/ic_cancelation"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <!-- Overlay that dims the screen -->
+                    <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+                        android:id="@+id/overlay"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                    <io.codetail.widget.RevealLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:gravity="end|bottom"
+                        android:orientation="vertical">
+
+                        <!-- Sheet that contains your items -->
+                        <android.support.v7.widget.CardView
+                            android:id="@+id/fab_sheet"
+                            style="@style/Widget.MaterialSheetFab.Sheet">
+
+                            <!-- Sheet items -->
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <!-- Recording -->
+
+                                <!-- Note -->
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorPrimary">
+
+                                    <TextView
+                                        android:id="@+id/fab_cancel"
+                                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                                        android:drawableLeft="@mipmap/ic_cancelation"
+                                        android:drawableStart="@mipmap/ic_cancelation"
+                                        android:text="Cetak Bukti Pembatalan"
+                                        android:textColor="#fafafa" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </io.codetail.widget.RevealLinearLayout>
+
+                    <WebView
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/webviw"></WebView>
+
+                </RelativeLayout>
+            </LinearLayout>
+    </LinearLayout>
+</com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

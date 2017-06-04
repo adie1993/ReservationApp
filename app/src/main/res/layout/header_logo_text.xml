@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logo_white"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:text="Krakaline Shuttle"
+    android:fontFamily="sans-serif"
+    android:textSize="25sp"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:textStyle="bold" />

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+   <ScrollView
+       android:scrollbars="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="5dp"
+                   android:text="Transaksi Pembayaran telah dicatat dengan Kode :"
+                   android:fontFamily="sans-serif"
+                   android:textSize="14sp"
+                   android:textStyle="bold"
+                   android:gravity="center" />
+               <TextView
+                   android:id="@+id/txtkod"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="5dp"
+                   android:text="KSB12345"
+                   android:fontFamily="sans-serif"
+                   android:textSize="14sp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:textColor="@color/colorPrimary" />
+
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="10dp"
+               android:text="Mohon Tunggu Konfirmasi dari Pihak Krakaline Shuttle"
+               android:fontFamily="sans-serif"
+               android:textSize="14sp"
+               android:gravity="center" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="10dp"
+               android:text="Tim customer service kami siap membantu anda seputar pertanyaan atau masalah dalam penggunaan aplikasi"
+               android:fontFamily="sans-serif"
+               android:textSize="14sp"
+               android:gravity="center" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               >
+               <Button android:textAppearance="@style/TextAppearance.AppCompat.Button" android:textSize="17sp" android:textColor="#ffffff" android:id="@+id/btn_pesan" android:background="@drawable/button_accent" android:layout_width="match_parent" android:layout_height="wrap_content"
+                   android:text="Keluhan" android:layout_below="@+id/container"
+                   android:layout_marginLeft="@dimen/activity_vertical_margin"
+                   android:layout_marginRight="@dimen/activity_vertical_margin"
+                   android:layout_marginTop="10dp"
+                   />
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+   </ScrollView>
+</RelativeLayout>

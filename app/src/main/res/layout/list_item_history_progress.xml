@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        android:background="@android:color/white"
+        app:cardElevation="4dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView  android:id="@+id/poming" android:layout_width="25dp" android:layout_height="40dp" android:layout_marginLeft="8dp" android:layout_marginTop="8dp"
+            android:src="@drawable/pomingmay" />
+        <TextView android:id="@+id/cabang" android:fontFamily="sans-serif" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:singleLine="true" android:layout_alignParentTop="true"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/poming"
+            android:textColor="#212121" />
+        <TextView android:id="@+id/keberangkatan" android:fontFamily="sans-serif" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:singleLine="true" android:layout_below="@+id/cabang"
+            android:textColor="#616161"
+            android:layout_toRightOf="@+id/poming"
+            android:textSize="13sp" />
+        <TextView android:textSize="13sp" android:fontFamily="sans-serif" android:textColor="#ffffff" android:gravity="center|center_vertical|center_horizontal|fill_vertical" android:id="@+id/status_pembayaran" android:background="@drawable/unpaid_background"
+            android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp" android:text="@string/action_progress" android:layout_below="@+id/keberangkatan" android:layout_toRightOf="@+id/poming"
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp" />
+        <View
+            android:layout_below="@id/status_pembayaran"
+            android:background="@color/colorButtonGreyPressed"
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/status_pembayaran">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|bottom"
+                android:text="LIHAT DETAIL PEMESANAN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="match_parent" />
+</android.support.v7.widget.CardView>
+</FrameLayout>

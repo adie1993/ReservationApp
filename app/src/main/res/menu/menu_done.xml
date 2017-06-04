@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/android">
+    <item app:icon="@drawable/done" app:id="@+id/action_done" app:title="@string/action_done" android:showAsAction="always"
+        />
+</menu>

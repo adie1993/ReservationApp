@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    android2:layout_width="match_parent"
+    android2:layout_height="match_parent"
+
+    android2:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+
+            android2:layout_width="match_parent"
+            android2:layout_height="wrap_content"
+            android2:background="?attr/colorPrimary"
+            android2:id="@+id/toolbaar"
+            android2:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android2:minHeight="@dimen/abc_action_bar_default_height_material">
+
+        </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android2:id="@+id/second_group_container"
+        android2:layout_width="fill_parent"
+        android2:layout_height="wrap_content"
+        android2:background="#ffffff"
+
+        android2:orientation="vertical">
+        <View
+            android2:layout_width="fill_parent"
+            android2:layout_height="1dp"
+            android2:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android2:background="@drawable/divider_section_top" />
+        <LinearLayout
+            android2:id="@+id/tggllay"
+            android2:layout_width="fill_parent"
+            android2:layout_height="@dimen/view_height"
+            android2:padding="3dip"
+            android2:gravity="left|center" >
+            <TextView android2:id="@+id/txtpromo" android2:layout_width="match_parent" android2:layout_height="match_parent" android2:hint="Pilih Tanggal Keberangkatan" android2:drawableLeft="@drawable/calendar"
+                android2:fontFamily="sans-serif"
+                android2:textSize="18dp"
+                android2:gravity="center_vertical"
+                android2:textColorHint="#999999"
+                android2:textColor="#2f2f2f" />
+        </LinearLayout>
+        <View
+            android2:layout_width="match_parent"
+            android2:layout_height="1dip"
+            android2:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android2:background="@drawable/divider_section_bottom"/>
+    </LinearLayout>
+
+    <FrameLayout
+
+        android2:layout_marginTop="16dp"
+        android2:id="@+id/second_spacer"
+        android2:layout_width="fill_parent"
+        android2:layout_height="wrap_content"
+        android2:background="#f3f3f3">
+
+        <View
+            android2:layout_width="match_parent"
+            android2:layout_height="1dip"
+            android2:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android2:background="@drawable/divider_section_bottom"/>
+    </FrameLayout>
+    <FrameLayout
+
+        android2:orientation="vertical"
+        android2:layout_width="match_parent"
+        android2:layout_height="match_parent"
+        android2:id="@+id/containerVieww"
+        android2:background="#ffffff">
+
+    </FrameLayout>
+
+
+</LinearLayout>

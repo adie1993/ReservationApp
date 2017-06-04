@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/android"
+    app:id="@+id/content"
+    app:layout_width="match_parent"
+    app:layout_height="match_parent"
+    />
