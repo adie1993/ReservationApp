@@ -41,7 +41,7 @@ public class Register extends BaseActivity {
     ConnectionDetector cd;
     JSONParser jsonParser = new JSONParser();
     SessionManager session;
-    private static String url = "http://10.42.0.1/kraka/api/register.php";
+    private static String url = "http://10.0.2.2/kraka/api/register.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

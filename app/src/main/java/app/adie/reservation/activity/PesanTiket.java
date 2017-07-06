@@ -75,7 +75,7 @@ public class PesanTiket extends BaseFragment implements OnClickListener,OnTouchL
     private TextView mTujuan;
     private TextView mDateFrom;
     private TextView mDateTo;
-    private static String url = "http://10.42.0.1/kraka/api/cekuser.php";
+    private static String url = "http://10.0.2.2/kraka/api/cekuser.php";
     private TextView mFinalVisibleView;
     private Register regis = new Register();
     private boolean isActionMode = false;

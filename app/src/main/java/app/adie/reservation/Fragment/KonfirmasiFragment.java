@@ -52,8 +52,8 @@ public class KonfirmasiFragment extends BaseFragment implements OnClickListener 
     private TextView mNamaPenum;
     private Button btn_pesan;
     JSONParser jParser = new JSONParser();
-    private static String url = "http://10.42.0.1/kraka/api/konfirmasipesan.php";
-    private static String urll = "http://10.42.0.1/kraka/api/konfirmasi.php";
+    private static String url = "http://10.0.2.2/kraka/api/konfirmasipesan.php";
+    private static String urll = "http://10.0.2.2/kraka/api/konfirmasi.php";
 
 
 

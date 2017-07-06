@@ -81,7 +81,7 @@ public class MainActivity extends BaseActivity {
     private int a,b;
     Boolean isInternetPresent = false;
     ConnectionDetector cd;
-    private static String url = "http://10.42.0.1/kraka/api/updatestat.php";
+    private static String url = "http://10.0.2.2/kraka/api/updatestat.php";
     JSONArray contacts = null;
     String email, nama, id,phone;
     @Override
@@ -248,7 +248,7 @@ View parentlayout = findViewById(R.id.materialViewPager);
 
             @Override
             public int getCount() {
-                return 4;
+                return 3;
             }
 
             @Override
@@ -274,15 +274,15 @@ View parentlayout = findViewById(R.id.materialViewPager);
                     case 0:
                         return HeaderDesign.fromColorResAndUrl(
                                 R.color.colorPrimary,
-                                "http://10.42.0.1/kraka/api/wel.png");
+                                "http://10.0.2.2/kraka/api/wel.png");
                     case 1:
                         return HeaderDesign.fromColorResAndUrl(
                                 R.color.main,
-                                "http://10.42.0.1/kraka/api/tess.jpg");
+                                "http://10.0.2.2/kraka/api/tess.jpg");
                     case 2:
                         return HeaderDesign.fromColorResAndUrl(
                                 R.color.colorAccent,
-                                "http://10.42.0.1/kraka/api/ff.png");
+                                "http://10.0.2.2/kraka/api/ff.png");
 
 
 

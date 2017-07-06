@@ -41,7 +41,7 @@ public class JurusanFragment extends BaseFragment implements SwipeRefreshLayout.
     private LoadingIndicator mLoadingIndicator;
     private RecyclerView mRecyclerView;
     private SwipeRefreshLayout mSwipeRefreshLayout;
-    private String url_all_products = "http://10.42.0.1/kraka/api/jurusan.php";
+    private String url_all_products = "http://10.0.2.2/kraka/api/jurusan.php";
     JSONArray products = null;
 
     public boolean setLoadingIndicator(LoadingIndicator mLoadingIndicator, boolean isShow) {

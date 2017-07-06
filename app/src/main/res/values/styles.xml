@@ -110,10 +110,8 @@
         <item name="android:layout_marginLeft">@dimen/fab_spacing</item>
         <item name="android:layout_marginRight">@dimen/fab_spacing</item>
         <item name="android:elevation" tools:ignore="NewApi">@dimen/fab_elevation</item>
-
         <item name="fabSize">normal</item>
         <item name="borderWidth">0dp</item>
-
     </style>
 
 

@@ -49,7 +49,7 @@ public class SopirFragment extends BaseFragment implements SwipeRefreshLayout.On
     private RecyclerView mRecyclerView;
     private FrameLayout mImg;
     private SwipeRefreshLayout mSwipeRefreshLayout;
-    private String url_all_products = "http://10.42.0.1/kraka/api/sopirapi.php";
+    private String url_all_products = "http://10.0.2.2/kraka/api/sopirapi.php";
     JSONArray products = null;
     private ObservableScrollView mScrollView;
 

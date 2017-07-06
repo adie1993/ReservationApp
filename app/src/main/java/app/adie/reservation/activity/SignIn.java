@@ -129,7 +129,7 @@ public class SignIn extends BaseActivity implements GoogleApiClient.OnConnection
 			
 			@Override
 			public void onClick(View v) {
-				url = "http://10.42.0.1/kraka/api/login.php?" + "username="
+				url = "http://10.0.2.2/kraka/api/login.php?" + "username="
 						+ inputuname.getText().toString() + "&password="
 						+ inputpassword.getText().toString();
 				if (!validateUName()) {
@@ -187,7 +187,7 @@ public class SignIn extends BaseActivity implements GoogleApiClient.OnConnection
 			String namaa = acct.getDisplayName();
 			StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
 			StrictMode.setThreadPolicy(policy);
-				plus = "http://10.42.0.1/kraka/api/loginGplus.php?" + "email="+ emaiil;
+				plus = "http://10.0.2.2/kraka/api/loginGplus.php?" + "email="+ emaiil;
 
 			try {
 					int successs;

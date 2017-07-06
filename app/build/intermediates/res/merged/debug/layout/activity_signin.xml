@@ -1,0 +1,136 @@
+
+<android.support.design.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e707b">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+       >
+
+        <ImageView
+            android:layout_width="216dp"
+            android:layout_height="180dp"
+            android:id="@+id/logo"
+
+            android:src="@drawable/logo"
+            android:layout_gravity="center|top" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_uname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_username"
+                android:backgroundTintMode="src_in"
+                android:backgroundTint="#ffffff"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="@string/hint_password"
+                android:textColor="#ffffff"
+
+                android:textColorHint="#ffffff"
+                android:backgroundTint="#ffffff"
+                android:backgroundTintMode="src_in" />
+        </android.support.design.widget.TextInputLayout>
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+
+            android:minHeight="50dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:text="MASUK"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            app:cornerRadius="5dp"
+            app:shadowEnabled="false"
+            app:buttonColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/lupa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lupa Password?"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Masuk dengan"
+            android:id="@+id/textView2"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="14sp" />
+
+        <View
+            android:background="#083439"
+            android:layout_width="120dp"
+            android:layout_height="3px"
+
+          android:layout_toLeftOf="@+id/textView2"
+            android:layout_gravity="right" />
+
+        <View
+            android:background="#083439"
+            android:layout_width="120dp"
+            android:layout_height="3px"
+
+
+             android:layout_toRightOf="@+id/textView2" />
+
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_loginplus"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+
+            android:minHeight="50dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="MASUK DENGAN GOOGLE+"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            app:cornerRadius="5dp"
+            app:shadowEnabled="false"
+            app:buttonColor="@color/colorButtonAccentPlus"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.design.widget.CoordinatorLayout>

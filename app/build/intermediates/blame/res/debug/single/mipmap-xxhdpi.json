@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_kode.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_kode.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_capture.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_capture.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_cashback.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_cashback.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_penumpang2.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_penumpang2.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_bill_off.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_bill_off.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_bayar.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_bayar.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/bca.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/bca.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_pay.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_pay.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_print.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_print.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_bill_on.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_bill_on.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_penumpang3.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_penumpang3.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_rupiah.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_rupiah.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_diskon.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_diskon.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/arrival.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/arrival.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_cancelation.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_cancelation.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_cart.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_cart.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/clockgray.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/clockgray.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_seat.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_seat.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_batas.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_batas.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_sale.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_sale.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/calendar.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/calendar.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/clock_on.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/clock_on.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_penumpang.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_penumpang.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_tujuan_on.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_tujuan_on.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_tujuan.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/mipmap-xxhdpi/ic_tujuan.png"
+    }
+]

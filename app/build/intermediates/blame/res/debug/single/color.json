@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/color/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/calendar_text_selector.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/color/calendar_text_selector.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/color/abc_primary_text_material_dark.xml"
+    }
+]

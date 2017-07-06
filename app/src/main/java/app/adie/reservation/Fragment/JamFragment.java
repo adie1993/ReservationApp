@@ -106,7 +106,7 @@ public class JamFragment extends BaseFragment implements SwipeRefreshLayout.OnRe
 
 
     private void getJamBer(boolean progress, String kodeJamBer,String tanggal) {
-        url = "http://10.42.0.1/kraka/api/jam.php?"+"kode="+kodeJamBer.toString()+"&tanggal="+tanggal.toString();
+        url = "http://10.0.2.2/kraka/api/jam.php?"+"kode="+kodeJamBer.toString()+"&tanggal="+tanggal.toString();
 
 
             if (progress) {

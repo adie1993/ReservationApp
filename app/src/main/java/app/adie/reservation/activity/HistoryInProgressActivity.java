@@ -74,7 +74,7 @@ public class HistoryInProgressActivity extends BaseActivity  {
             this.harga = extras.getInt("harga");
             this.diskon = extras.getInt("diskon");
             this.id_pemesanan = extras.getString("id_pem");
-            String gambar = "http://10.42.0.1/kraka/"+bukti;
+            String gambar = "http://10.0.2.2/kraka/"+bukti;
             Glide.with(getApplicationContext()).load(gambar).thumbnail(0.5f)
                     .crossFade()
                     .diskCacheStrategy(DiskCacheStrategy.ALL).into(img);

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 Square, Inc. -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item app:tsquare_state_range_middle="true">
+        <color android:color="@color/calendar_selected_range_bg"/>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="0dp" android:thickness="18dp">
+            <solid android:color="@color/calendar_selected_day_bg" />
+            <stroke android:width="0dp" android:color="#fff" />
+            <padding android:top="0dp" android:bottom="0dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="0dp" android:thickness="18dp">
+            <solid android:color="#ffffff" />
+            <stroke android:width="0dp" android:color="#fff" />
+            <padding android:top="0dp" android:bottom="0dp" />
+        </shape>
+    </item>
+    <item app:tsquare_state_current_month="false">
+        <color android:color="@color/calendar_inactive_month_bg"/>
+    </item>
+    <item app:tsquare_state_highlighted="true">
+        <color android:color="@color/calendar_highlighted_day_bg"/>
+    </item>
+
+    <item>
+        <color android:color="@color/calendar_active_month_bg"/>
+    </item>
+</selector>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+   <ScrollView
+       android:scrollbars="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="15dp"
+               android:text="Syarat &amp; Ketentuan"
+               android:fontFamily="sans-serif"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textSize="19sp"
+               android:gravity="center" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="25dp"
+               android:text="Cara Pembayaran"
+               android:fontFamily="sans-serif"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textSize="14sp" />
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="1"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="Pembayaran dapat dilakukan 30 menit sebelum jam keberangkatan yang dipesan, jika sudah melebihi batas waktu, anda tidak dapat melakukan pembayaran dan pesanan yang anda lakukan pun akan dibatalkan secara otomatis sesuai dengan ketentuan yang sudah ditetapkan oleh pihak Krakaline Shuttle"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+           </LinearLayout>
+           <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_marginTop="10dp"
+               android:text="2"
+               android:fontFamily="sans-serif"
+               android:layout_marginLeft="10dp"
+               android:textSize="12sp" />
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="10dp"
+               android:text="Transfer ke No Rekening Krakaline Shuttle '7771213225' ( BCA )"
+               android:fontFamily="sans-serif"
+               android:layout_marginLeft="10dp"
+               android:textSize="12sp" />
+       </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="3"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="Upload Bukti Transfer yang sudah dibayarkan ke rekening Krakaline Shuttle"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="4"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="Penumpang diharapkan tiba dilokasi pemberangkatan Krakaline Shuttle paling lambat 15 menit sebelum waktu keberangkatan"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+           </LinearLayout>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_marginTop="20dp"
+               android:text="Cara Pembatalan"
+               android:fontFamily="sans-serif"
+               android:layout_marginLeft="10dp"
+               android:textStyle="bold"
+               android:textSize="14sp" />
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="1"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="10dp"
+                   android:text="Pembatalan sama hal-nya dengan cara pembayaran, namun jika pembatalan sudah melebihi batas waktu, pengembalian uang dengan dipotong sebesar 25% dari harga tiket yang sudah dibayar tidak akan berlaku lagi atau dengan kata lain tiket dianggap hangus"
+                   android:fontFamily="sans-serif"
+                   android:layout_marginLeft="10dp"
+                   android:textSize="12sp" />
+           </LinearLayout>
+       </LinearLayout>
+
+   </ScrollView>
+</RelativeLayout>

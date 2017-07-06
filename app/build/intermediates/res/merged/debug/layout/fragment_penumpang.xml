@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+
+    android2:layout_width="wrap_content"
+    android2:layout_height="match_parent">
+    <app.adie.reservation.view.widget.LoadingIndicator
+        android2:id="@+id/loading_indicator" android2:visibility="visible" android2:layout_centerInParent="true"
+        android2:layout_width="wrap_content"
+        android2:layout_height="wrap_content"
+        android:indicator="BallPulse"
+        android:indicator_color="@color/colorPrimary"
+        />
+
+        <android.support.v7.widget.RecyclerView android2:id="@+id/recycler_view" android2:layout_width="match_parent" android2:layout_height="match_parent" />
+
+    <RelativeLayout  android2:layout_marginBottom="8dp" android2:layout_width="match_parent" android2:layout_height="wrap_content" android2:layout_alignParentBottom="true">
+        <app.adie.reservation.view.widget.Fab
+            android2:id="@+id/fab"
+            style="@style/Widget.MaterialSheetFab.Fab"
+            android2:layout_alignParentBottom="true"
+            android2:layout_alignParentRight="true"
+            android2:src="@drawable/ic_toolbar_tambah"
+            android2:layout_marginRight="@dimen/activity_horizontal_margin"
+            android2:layout_marginBottom="@dimen/activity_vertical_margin"
+            android2:layout_width="wrap_content"
+            android2:layout_height="wrap_content" />
+
+        <!-- Overlay that dims the screen -->
+        <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+            android2:id="@+id/overlay"
+            android2:layout_width="match_parent"
+            android2:layout_height="match_parent" />
+        <io.codetail.widget.RevealLinearLayout
+            android2:layout_width="match_parent"
+            android2:layout_height="match_parent"
+            android2:layout_marginRight="@dimen/activity_horizontal_margin"
+            android2:layout_marginBottom="@dimen/activity_vertical_margin"
+            android2:gravity="end|bottom"
+            android2:orientation="vertical">
+
+            <!-- Sheet that contains your items -->
+            <android.support.v7.widget.CardView
+                android2:id="@+id/fab_sheet"
+                style="@style/Widget.MaterialSheetFab.Sheet">
+
+                <!-- Sheet items -->
+                <LinearLayout
+                    android2:layout_width="wrap_content"
+                    android2:layout_height="wrap_content"
+                    android2:orientation="vertical">
+
+                    <!-- Recording -->
+
+                    <!-- Note -->
+                    <LinearLayout
+                        android2:layout_width="match_parent"
+                        android2:layout_height="wrap_content"
+                        android2:background="@color/colorPrimary">
+
+                        <TextView
+                            android2:id="@+id/button_tambah"
+                            style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                            android2:drawableLeft="@drawable/ic_toolbar_tambah"
+                            android2:drawableStart="@drawable/ic_toolbar_tambah"
+                            android2:text="Tambah Penumpang"
+                            android2:textSize="14dp"
+                            android2:textColor="#fafafa" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </io.codetail.widget.RevealLinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

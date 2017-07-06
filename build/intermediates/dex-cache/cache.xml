@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/adie/ReservationApp/app/libs/httpcore-4.3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d">
+        <dex dex="/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3.3_3cdd91d43b50290377f1d124c5694d700d8b7d05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/adie/ReservationApp/app/libs/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.3.6_1630e9d063a1bcba9e36122c4d72584f4d3978db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/adie/ReservationApp/app/libs/httpmime-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702">
+        <dex dex="/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.3.6_4d95a9ad7b2050cc7d0230aed35c6bb6a0d8fbca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/adie/ReservationApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af81f3f3cd69385c04003fb4945ed255b36c25e1">
+        <dex dex="/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2db7573b2f11ab55a83de6d4e807fd6ee24000f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/adie/ReservationApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_617f91d2a00c81af36bfda04a87e39b9ab3e3959/classes.dex" />
+    </item>
+
+</items>

@@ -13,16 +13,16 @@
       },
       "oauth_client": [
         {
-          "client_id": "882509963981-dtoujutf16bcmj9oovge68unao9ih715.apps.googleusercontent.com",
+          "client_id": "882509963981-shdmu8ke16523vghqc0ifoeg59ti482e.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "882509963981-b4mrlish8gc33h7pp2v0kkpte4q3dh51.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "app.adie.reservation",
-            "certificate_hash": "00381D6B592EE19D8813202DC18E71FE60AB9615"
+            "certificate_hash": "00381d6b592ee19d8813202dc18e71fe60ab9615"
           }
-        },
-        {
-          "client_id": "882509963981-shdmu8ke16523vghqc0ifoeg59ti482e.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [

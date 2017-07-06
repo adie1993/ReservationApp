@@ -270,28 +270,28 @@ public class HistoryFragment extends BaseFragment implements OnRefreshListener {
 
         try {
             setLoadingIndicator(this.mLoadingIndicator, false);
-            url = "http://10.42.0.1/kraka/api/unpaid.php?"+"id_user="+id;
+            url = "http://10.0.2.2/kraka/api/unpaid.php?"+"id_user="+id;
             JSONObject json = jParser.getJSONFromUrl(url);
 
 
-            urll = "http://10.42.0.1/kraka/api/paid.php?"+"id_user="+id;
+            urll = "http://10.0.2.2/kraka/api/paid.php?"+"id_user="+id;
             JSONObject jsson = jParser.getJSONFromUrl(urll);
 
 
-            urlll = "http://10.42.0.1/kraka/api/inprogress.php?"+"id_user="+id;
+            urlll = "http://10.0.2.2/kraka/api/inprogress.php?"+"id_user="+id;
             JSONObject jssson = jParser.getJSONFromUrl(urlll);
 
 
-            urllll = "http://10.42.0.1/kraka/api/habis.php?"+"id_user="+id;
+            urllll = "http://10.0.2.2/kraka/api/habis.php?"+"id_user="+id;
             JSONObject jsssson = jParser.getJSONFromUrl(urllll);
 
 
-            canc = "http://10.42.0.1/kraka/api/cancel.php?"+"id_user="+id;
+            canc = "http://10.0.2.2/kraka/api/cancel.php?"+"id_user="+id;
             JSONObject cance = jParser.getJSONFromUrl(canc);
 
 
 
-            rej = "http://10.42.0.1/kraka/api/dibatalkan.php?"+"id_user="+id;
+            rej = "http://10.0.2.2/kraka/api/dibatalkan.php?"+"id_user="+id;
             JSONObject reject = jParser.getJSONFromUrl(rej);
             String success;
             success = reject.getString("status");

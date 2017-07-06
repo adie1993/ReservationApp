@@ -42,7 +42,7 @@ public class LupaPass extends BaseActivity {
     FrameLayout frame;
     JSONParser jsonParser = new JSONParser();
     SessionManager session;
-    private static String url = "http://10.42.0.1/kraka/api/fpass.php";
+    private static String url = "http://10.0.2.2/kraka/api/fpass.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

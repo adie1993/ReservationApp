@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/menu/drawermenu.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/menu/drawermenu.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/menu/menu_filter.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/menu/menu_filter.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/menu/menu_done.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/menu/menu_done.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/menu/drawer.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/menu/drawer.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/menu/menu_edit.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/menu/menu_edit.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/menu/action_mode.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/menu/action_mode.xml"
+    }
+]

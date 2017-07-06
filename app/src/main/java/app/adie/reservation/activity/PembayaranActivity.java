@@ -51,9 +51,9 @@ import app.adie.reservation.utils.RequestHandler;
 import app.adie.reservation.utils.StringUtils;
 
 public class PembayaranActivity extends BaseActivity implements View.OnClickListener {
-    public static final String UPLOAD_URL = "http://10.42.0.1/kraka/api/upload.php";
+    public static final String UPLOAD_URL = "http://10.0.2.2/kraka/api/upload.php";
     public static final String UPLOAD_KEY = "image";
-    public static final String FILE_UPLOAD_URL = "http://10.42.0.1/kraka/api/fileUpload.php";
+    public static final String FILE_UPLOAD_URL = "http://10.0.2.2/kraka/api/fileUpload.php";
     public static final String IMAGE_DIRECTORY_NAME = "Krakaline";
     private int PICK_IMAGE_REQUEST = 1;
     private static final int CAMERA_CAPTURE_IMAGE_REQUEST_CODE = 100;

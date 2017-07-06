@@ -83,7 +83,7 @@ public class PromoAdapter extends Adapter<PromoAdapter.ViewHolder> {
         Date tgl_akhir = DateUtils.stringToDate(viewHolder.mPromoTiket.tanggal);
         String tgl = DateUtils.getDateFormatCard(tgl_akhir);
         String gambar = viewHolder.mPromoTiket.foto;
-        String fix = "http://10.42.0.1/kraka/"+gambar;
+        String fix = "http://10.0.2.2/kraka/"+gambar;
         Glide.with(mContext).load(fix).thumbnail(0.5f)
                 .crossFade()
                 .diskCacheStrategy(DiskCacheStrategy.ALL).into(viewHolder.mLogo);

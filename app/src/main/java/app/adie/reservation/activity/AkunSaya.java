@@ -46,8 +46,8 @@ public class AkunSaya extends BaseActivity {
     ConnectionDetector cd;
     JSONParser jsonParser = new JSONParser();
     SessionManager session;
-    private static String url = "http://10.42.0.1/kraka/api/ubahakun.php";
-    private static String urlloc = "http://10.42.0.1/kraka/api/ubahakun.php";
+    private static String url = "http://10.0.2.2/kraka/api/ubahakun.php";
+    private static String urlloc = "http://10.0.2.2/kraka/api/ubahakun.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

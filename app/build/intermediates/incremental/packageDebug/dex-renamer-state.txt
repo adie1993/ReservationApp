@@ -1,0 +1,7 @@
+#Mon Jul 03 13:41:09 WIB 2017
+base.0=/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2db7573b2f11ab55a83de6d4e807fd6ee24000f4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_617f91d2a00c81af36bfda04a87e39b9ab3e3959/classes.dex
+base.1=/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_617f91d2a00c81af36bfda04a87e39b9ab3e3959
+file.0=/home/adie/ReservationApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2db7573b2f11ab55a83de6d4e807fd6ee24000f4/classes.dex

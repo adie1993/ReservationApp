@@ -45,7 +45,7 @@ public class JamPromoAdapter extends Adapter<JamPromoAdapter.ViewHolder> {
         public TextView mThird;
         public ImageView mSale;
         Snackbar snackbar;
-        String url = "http://10.42.0.1/kraka/api/cekuser.php";
+        String url = "http://10.0.2.2/kraka/api/cekuser.php";
         JSONParser jParser = new JSONParser();
 
         public void showSnackbar(View view, int message, boolean length) {

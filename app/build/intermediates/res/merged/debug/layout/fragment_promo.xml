@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include layout="@layout/material_view_pager_placeholder"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="@dimen/cardMarginVertical"
+        android:background="@android:color/white"
+        app:cardElevation="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="350dp"
+                    android:src="@drawable/welldone"
+                    android:id="@+id/imageView3"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:id="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#000000"
+                    android:text="Tidak Ada Promo"
+                    android:gravity="center"
+                    android:layout_marginTop="120dp" />
+            </FrameLayout>
+
+            <app.adie.reservation.view.widget.LoadingIndicator
+                android:id="@+id/loading_indicator" android:visibility="gone" android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:indicator="BallPulse"
+                app:indicator_color="@color/colorPrimary"
+                />
+            <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/swipeRefreshLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>

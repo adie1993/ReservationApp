@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+    <RelativeLayout android:id="@+id/layout_gambar" android:padding="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/imageView3"
+              />
+
+
+
+    </RelativeLayout>
+        <View
+            android:layout_below="@id/layout_gambar"
+            android:background="@color/colorButtonGreySelected"
+            android:layout_width="310dp"
+            android:layout_height="4px"
+            android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@+id/layout_jurusan" android:padding="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/layout_gambar">
+            <View android:id="@+id/point_cabang_asal" android:background="@drawable/bg_point" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginTop="4dp" android:layout_alignTop="@+id/cabang_asal" />
+            <TextView android:textSize="17sp" android:id="@+id/cabang_asal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_small" android:layout_toRightOf="@+id/point_cabang_asal"
+                android:fontFamily="sans-serif"
+                android:text="AS"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+            <TextView android:textSize="15sp" android:textColor="@color/colorAccent" android:id="@+id/keterangan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_small" android:layout_marginTop="@dimen/activity_horizontal_margin_xsmall" android:layout_marginBottom="@dimen/activity_horizontal_margin_xsmall" android:layout_toRightOf="@+id/point_cabang_asal" android:layout_below="@+id/cabang_asal"
+                android:text="ASS" android:fontFamily="sans-serif" />
+            <View android:id="@+id/point_cabang_tujuan" android:background="@drawable/bg_point" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginBottom="4dp" android:layout_alignBottom="@+id/cabang_tujuan" />
+            <TextView android:textSize="17sp" android:id="@+id/cabang_tujuan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin_small" android:layout_toRightOf="@+id/point_cabang_tujuan" android:layout_below="@+id/keterangan"
+                android:fontFamily="sans-serif"
+                android:text="A"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/point_cabang_tujuan" android:layout_below="@+id/point_cabang_asal" android:layout_alignLeft="@+id/point_cabang_asal" android:layout_alignRight="@+id/point_cabang_asal">
+                <View android:id="@+id/line" android:background="@drawable/bg_point" android:layout_width="1dp" android:layout_height="match_parent" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/layout_harga" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="@dimen/activity_horizontal_margin" android:layout_below="@+id/layout_jurusan">
+            <TextView android:textSize="15sp" android:id="@+id/harga_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif"
+                android:text="A" />
+            <TextView android:textSize="15sp" android:textColor="@color/colorPriceStrike" android:id="@+id/harga_potongan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/harga_normal" android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif"
+                android:text="A" />
+            <TextView android:textSize="19sp" android:textColor="@color/colorAccent" android:id="@+id/harga_promo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_horizontal_margin_small" android:layout_below="@+id/harga_potongan" android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif"
+                android:text="A" />
+            <ImageView android:id="@+id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/harga_promo"
+                android:background="@drawable/kraka32" />
+        </RelativeLayout>
+        <ImageView android:id="@+id/sale" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+            android:background="@mipmap/ic_sale" />
+    </RelativeLayout>
+</FrameLayout>

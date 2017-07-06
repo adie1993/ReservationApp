@@ -1,0 +1,530 @@
+[
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/logo_white.png",
+        "source": "/home/adie/.android/build-cache/8eefe6051c11bad489b47586a421a58513207199/output/res/drawable/logo_white.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_rupiah.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_rupiah.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/connect.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/connect.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_search_outward.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_search_outward.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/bin.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/bin.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/pomingmay.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/pomingmay.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/font.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/font.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_sale_selected.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_sale_selected.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/composea.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/composea.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/social.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/social.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_selected.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_selected.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/calendar_bg_selector.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/calendar_bg_selector.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/selected_row.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/selected_row.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/unpaid_background.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/unpaid_background.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_mail_grey600_24dp.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_mail_grey600_24dp.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/icon.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/icon.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_sale_sold.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_sale_sold.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/calendar.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/calendar.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/chat.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/chat.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_search_inward.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_search_inward.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/bg_point.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/bg_point.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/divider_section_top.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/divider_section_top.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/btn_green_normal.9.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/btn_green_normal.9.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/help.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/help.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/senta.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/senta.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/logout.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/logout.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/time.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/time.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_penumpang2.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_penumpang2.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_batas.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_batas.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_noseat.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_noseat.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/table.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/table.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_driver.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_driver.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_seat.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_seat.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/psts_background_tab.xml",
+        "source": "/home/adie/.android/build-cache/f38ee9e23b41f3e17a839e85dee67fceadb37d76/output/res/drawable/psts_background_tab.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_available.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_available.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/button_dark.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/button_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/wel.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/wel.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/circle.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/circle.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/kraka32.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/kraka32.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_penumpang.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_penumpang.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/snackbar_background.xml",
+        "source": "/home/adie/.android/build-cache/979924344e94ca8b2df8fcbb4e50246a71b98485/output/res/drawable/snackbar_background.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/from.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/from.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/fcb.jpg",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/fcb.jpg"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kode.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kode.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_send_white.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_send_white.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/settings.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/settings.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ff.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ff.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/cancel_background.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/cancel_background.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_cart.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_cart.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/fixtures.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/fixtures.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/flying.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/flying.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/tess.jpg",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/tess.jpg"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_toolbar_tambah.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_toolbar_tambah.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/spam.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/spam.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/fab_background.xml",
+        "source": "/home/adie/.android/build-cache/979924344e94ca8b2df8fcbb4e50246a71b98485/output/res/drawable/fab_background.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/example.jpeg",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/example.jpeg"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_sale.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_sale.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/road.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/road.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/lol.jpg",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/lol.jpg"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/clock_on.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/clock_on.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/gallery.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/gallery.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/inbox.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/inbox.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_arrow_back.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_arrow_back.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/lunas_background.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/lunas_background.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/alertcustom.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/alertcustom.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_penumpang_on.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_penumpang_on.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/splash_background.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/splash_background.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/sent.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/sent.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/squad.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/squad.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/transfer.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/transfer.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_tujuan.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_tujuan.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/divider_section_bottom.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/divider_section_bottom.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_checked_mark.png",
+        "source": "/home/adie/.android/build-cache/c9edd0b2c6b5f705505bf027439864f4b5b9f781/output/res/drawable/ic_checked_mark.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/button_accent_plus.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/button_accent_plus.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/logo.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/compose.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/compose.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/button_accent.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/button_accent.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ss.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ss.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/line_divider.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/line_divider.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/promo.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/promo.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/kursi_selector.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/kursi_selector.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/bg_circle.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/bg_circle.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/clock.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/clock.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/button_primary.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/button_primary.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_failure_mark.png",
+        "source": "/home/adie/.android/build-cache/c9edd0b2c6b5f705505bf027439864f4b5b9f781/output/res/drawable/ic_failure_mark.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/divider.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/divider.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_bayar.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_bayar.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/done.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/done.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/arrow.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/arrow.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_tujuan_on.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_tujuan_on.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_sold.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_sold.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/bg_bubble_white.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/bg_bubble_white.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_filter_list_white.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_filter_list_white.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_kursi_sale.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_kursi_sale.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_diskon.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_diskon.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/home/adie/.android/build-cache/66d315bcfa20db06f826e3cda66b9c156e252703/output/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/akun.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/akun.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/bg_bubble_gray.xml",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/bg_bubble_gray.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/welldone.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/welldone.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/clockgray.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/clockgray.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/adie/.android/build-cache/f0e7f39afdeff300cd2ca5dea1cc0a04b7b4a3b8/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/draft.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/draft.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/arrival.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/arrival.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/ic_penumpang3.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/ic_penumpang3.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/arrows_from.png",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/arrows_from.png"
+    },
+    {
+        "merged": "/home/adie/ReservationApp/app/build/intermediates/res/merged/debug/drawable/got.jpg",
+        "source": "/home/adie/ReservationApp/app/src/main/res/drawable/got.jpg"
+    }
+]

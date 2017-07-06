@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    android2:layout_width="match_parent"
+    android2:layout_height="match_parent"
+    android2:fitsSystemWindows="true"
+    android2:orientation="vertical">
+
+
+        <android.support.v7.widget.Toolbar
+
+            android2:layout_width="match_parent"
+            android2:layout_height="wrap_content"
+            android2:background="?attr/colorPrimary"
+            android2:id="@+id/toolbaar"
+            android2:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android2:minHeight="@dimen/abc_action_bar_default_height_material">
+
+                <app.adie.reservation.view.widget.LoadingIndicator android2:id="@+id/loading_indicator" android2:visibility="visible" android2:layout_width="325dp" android2:layout_height="match_parent"  android:indicator="BallPulse" android:indicator_color="@color/white" />
+
+        </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android2:orientation="vertical"
+        android2:layout_width="match_parent"
+        android2:layout_height="match_parent"
+        android2:id="@+id/containerVieww">
+    </FrameLayout>
+
+
+    </LinearLayout>

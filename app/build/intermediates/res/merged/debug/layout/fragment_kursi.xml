@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    android2:orientation="vertical"
+    android2:layout_width="wrap_content"
+    android2:layout_height="wrap_content">
+<FrameLayout
+    android2:layout_width="wrap_content"
+    android2:layout_height="wrap_content">
+    <android.support.v4.widget.SwipeRefreshLayout android2:id="@+id/swipeRefreshLayout" android2:layout_width="wrap_content" android2:layout_height="wrap_content">
+        <GridView android2:gravity="center_vertical|fill_horizontal|center_horizontal|fill|fill_vertical|center|start|bottom|left|right|end|top" android2:id="@+id/gridview" android2:scrollbars="vertical" android2:layout_width="wrap_content" android2:layout_height="300dp" android2:drawSelectorOnTop="true"
+
+           />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>
+    <RelativeLayout android2:id="@+id/resume_price" android2:background="@color/colorPrimary" android2:padding="8dp" android2:visibility="gone" android2:layout_width="match_parent" android2:layout_height="wrap_content" android2:layout_alignParentBottom="true"
+        >
+        <TextView android2:textSize="15sp"  android2:id="@+id/harga" android2:layout_width="wrap_content" android2:layout_height="wrap_content"
+            android2:textColor="#ffffff" />
+        <TextView android2:textSize="15sp"  android2:id="@+id/total" android2:layout_width="wrap_content" android2:layout_height="wrap_content" android2:layout_alignParentRight="true"
+            android2:textColor="#ffffff" />
+    </RelativeLayout>
+</RelativeLayout>

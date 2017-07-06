@@ -118,8 +118,8 @@ public class KursiFragment extends BaseFragment implements OnItemClickListener, 
 
 
     private void getKursiReservasi(boolean refreshing, String tanggal, int jadwal) {
-       url = "http://10.42.0.1/kraka/api/tes.php?"+"jadwal="+String.valueOf(jadwal)+"&tgl="+tanggal.toString();
-        urll = "http://10.42.0.1/kraka/api/kursi.php?"+"id="+String.valueOf(id);
+       url = "http://10.0.2.2/kraka/api/tes.php?"+"jadwal="+String.valueOf(jadwal)+"&tgl="+tanggal.toString();
+        urll = "http://10.0.2.2/kraka/api/kursi.php?"+"id="+String.valueOf(id);
 
             JSONObject json = jParser.getJSONFromUrl(url);
             try {
